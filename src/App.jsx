@@ -1,4 +1,5 @@
 import './App.css'
+import HeaderNavbar from './Components/HeaderNavbar/HeaderNavbar'
 
 function App() {
   
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       
-      <h1 className='text-center'>Vite + React</h1>
+      <HeaderNavbar/>
       
     </>
   )
